@@ -1,0 +1,40 @@
+main {
+  width: max-content;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+#output {
+  height: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 1rem;
+  background-color: red;
+  border-radius: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.buttons {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(4, 3rem);
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.number {
+  background-color: rgb(49, 49, 49);
+  color: rgb(67, 144, 194);
+}
+
+.operator {
+  background-color: lightblue;
+}
