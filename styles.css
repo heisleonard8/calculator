@@ -1,8 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
+  margin: 0 auto;
   width: max-content;
   padding: 1rem;
-  background-color: black;
-  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(9, 193, 210, 0.586),
+    0 6px 20px 0 rgba(4, 66, 110, 0.509);
+  background-color: rgb(8, 161, 249);
+  border-radius: 0.5rem;
 }
 
 #output {
@@ -10,8 +19,11 @@ main {
   margin-bottom: 1rem;
   color: white;
   padding: 1rem;
-  background-color: red;
-  border-radius: 1rem;
+  font-family: sans-serif, Arial;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: rgb(43, 39, 39);
+  border-radius: 0.5rem;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -27,12 +39,18 @@ button {
   padding: 0.5rem;
   border: none;
   border-radius: 0.5rem;
+  cursor: pointer;
   font-weight: 600;
+}
+
+.span {
+  grid-column: span 3;
 }
 
 .number {
   background-color: rgb(49, 49, 49);
   color: rgb(67, 144, 194);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(78, 2, 2, 0.19);
 }
 
 .operator {
